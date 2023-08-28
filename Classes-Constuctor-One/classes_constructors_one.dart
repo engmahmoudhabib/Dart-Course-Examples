@@ -1,18 +1,11 @@
+// Normal Class
 class Car {
-  int? _carNumber;
-  String? _color;
-  Car.carNumber() {
-    this._carNumber = 44;
-  }
+  // nullable field
+  String? _carName;
+  // non-nullable field must be initializing
+  String _carColor = 'white';
 
-  // initalizer list with named constructor 
-  Car.color()
-      : _color = 'Blue',
-        _carNumber = null;
-}
-
-void main() {
-  print(
-    Car.carNumber()._carNumber,
-  );
+  // default constuctor
+  // this one is inhereted by sub-classes
+  Car();
 }
