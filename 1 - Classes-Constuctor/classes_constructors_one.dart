@@ -9,7 +9,7 @@ class Car {
   // this one is inhereted by sub-classes
   //Car();
   
-  // initializer List with named constuctor
+  // initializer List 
   Car(
     this._carName,
   ) : this._carColor = 'Blue';
@@ -22,7 +22,7 @@ class Person {
   late String tall;
   // means color will be initalize one time but later
   // be careful this will add setter to the class ==> you can initialize color more than one time
-  // in the code and this will throw an exception
+  // in the code and this will throw a run time exception
   late final String color;
   Person(this._name);
 }
