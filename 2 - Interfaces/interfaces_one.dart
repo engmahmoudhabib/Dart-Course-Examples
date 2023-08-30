@@ -1,6 +1,7 @@
 // any class is an interface
 // we use implements keyword to implement interface
 // any class can implements many interfaces
+// any class implements an interface MUST override every method and attribute inside it 
 
 class Person {
   // fields

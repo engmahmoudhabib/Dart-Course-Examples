@@ -1,5 +1,5 @@
 // inteface when class's attributes are final
-
+// interface defines the roles which must be followed by inhereted classes from it 
 class Person {
   final String _name;
   Person(
