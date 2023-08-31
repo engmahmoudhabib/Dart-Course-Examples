@@ -6,6 +6,9 @@ class Person {
   }
 }
 
+
+
+
 void main() {
   // if name is not a string will throw an error
   Person person = Person.fromJson({'name': "44"});
