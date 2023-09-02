@@ -1,4 +1,6 @@
 // Normal Class
+// ignore_for_file: unused_field
+
 class Car {
   // nullable field
   String? _carName;

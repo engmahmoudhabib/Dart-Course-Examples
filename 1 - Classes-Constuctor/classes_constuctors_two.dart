@@ -1,5 +1,7 @@
 // validate values with assert
 // constructors are not inhereted
+// ignore_for_file: unused_local_variable
+
 class Person {
   Person.fromJson(Map<String, dynamic> json) : assert(json['name'] is String) {
     print('welcome babe !');
